@@ -84,16 +84,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Character.cpp" />
-    <ClCompile Include="Character_Shopper.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Vector2.cpp" />
+    <ClInclude Include="Source\Character.h" />
+    <ClInclude Include="Source\Character_Shopper.h" />
+    <ClInclude Include="Source\MyMath.h" />
+    <ClInclude Include="Source\Vector2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Character.h" />
-    <ClInclude Include="Character_Shopper.h" />
-    <ClInclude Include="MyMath.h" />
-    <ClInclude Include="Vector2.h" />
+    <ClCompile Include="Source\Character.cpp" />
+    <ClCompile Include="Source\Character_Shopper.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Vector2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

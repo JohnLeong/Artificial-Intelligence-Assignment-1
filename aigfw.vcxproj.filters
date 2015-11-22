@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Vector2">
+      <UniqueIdentifier>{5d18e877-5ef5-42b3-8c5f-055fa4cbd369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CharacterUnit">
+      <UniqueIdentifier>{6c7d627e-3f52-4481-9cb9-1bf57cbeafed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CharacterUnit">
+      <UniqueIdentifier>{ef0d6c3b-503a-4142-babe-9e71e3e1a01d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\CharacterUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_Shopper.cpp">
+      <Filter>Source Files\CharacterUnit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source Files\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Source Files\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\CharacterUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_Shopper.h">
+      <Filter>Header Files\CharacterUnit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

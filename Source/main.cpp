@@ -12,6 +12,8 @@
 #include "Vector2.h"
 #include "Character.h"
 #include "Character_Shopper.h"
+#include "Character_Waiter.h"
+
 #include FT_FREETYPE_H
 using namespace std;
 

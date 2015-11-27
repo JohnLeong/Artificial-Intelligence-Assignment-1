@@ -19,7 +19,9 @@ public:
 		STATE_EAT,			//State for shopping characters - character 'eats' for a duration before going back to patrol
 		STATE_FOLLOW,		//State for shopping characters - character follows waiter to a empty seat
 		//Waiter character states
-		/* Enter states here */
+		STATE_TAKEFOOD,     // State for waiter - waiter takes food when food is ready
+		STATE_IDLE,         // State for waiter - For when the waiter has no customers nor food to serve
+		STATE_BRING_TO_SEAT,// State for waiter - When there are seats and customers waiting
 		NUM_STATES,
 	};
 
